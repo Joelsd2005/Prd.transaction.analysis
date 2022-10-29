@@ -1,5 +1,7 @@
 Prd.transaction.analysis
 
+Analysis I did for quatium data analytics virtual internship
+
 Queries used:
 
 SELECT TOP (50) [DATE]
@@ -21,3 +23,12 @@ SELECT TOP (10) [DATE]
      FROM [VWX].[dbo].[Copy of QVI_transaction_data (2)]
 
 This will show the top 10 products with the highest quantity
+
+SELECT TOP (20) [DATE]
+      ,[STORE_NBR]
+      ,[LYLTY_CARD_NBR]
+      ,[TXN_ID]
+      ,[TOT_SALES]
+
+This will show the top 20 scores in total sales and how much loyalty cards were used
+
